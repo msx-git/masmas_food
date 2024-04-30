@@ -30,28 +30,6 @@ class WelcomeText extends StatelessWidget {
             textAlign: TextAlign.center,
             style: GoogleFonts.notoSans(fontSize: 12.sp,fontWeight: FontWeight.w500,),
           ),
-          SizedBox(height: 42.h),
-          Container(
-            height: 57.h,
-            width: 157.w,
-            alignment: Alignment.center,
-            decoration: BoxDecoration(
-                gradient: const LinearGradient(
-                  colors: [
-                    Color(0xff53E88B),
-                    Color(0xff15BE77),
-                  ],
-                ),
-                borderRadius: BorderRadius.circular(15.r)),
-            child: Text(
-              "Start",
-              style: GoogleFonts.notoSans(
-                color: Colors.white,
-                fontSize: 16.sp,
-                fontWeight: FontWeight.w500,
-              ),
-            ),
-          )
         ],
       ),
     );
